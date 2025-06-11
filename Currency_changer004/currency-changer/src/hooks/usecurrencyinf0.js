@@ -1,6 +1,6 @@
 import { useEffect ,  useState }   from "react";
 
-
+// default currency can be set by passing "USD" as the argument when calling useCurrencyInfo
 
 function useCurrencyInfo(currency) {
     const [data,setdata]=useState({})
