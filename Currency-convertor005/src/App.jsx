@@ -1,7 +1,7 @@
 import './App.css'
 import React from 'react'
 import InputBox from './components/InputBox';
-import useCurrencyinfo from './hooks/useCurrencyinfo';
+import useCurrencyinfo from './hooks/useCurrencyInfo';
 
 function App() {
   const [amount,setAmount]=React.useState(0);
